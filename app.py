@@ -3,7 +3,7 @@ import datetime
 import streamlit as st
 import plotly.graph_objects as go
 
-st.write("# 주식차트")
+st.write("# 주식차트 시각화")
 
 # ticker = "TSLA"
 ticker = st.text_input("티커 입력 >> ")
